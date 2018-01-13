@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\socketio">
+      <UniqueIdentifier>{0cd29515-70bc-4ed5-ac11-960581cc6c5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\socketio">
+      <UniqueIdentifier>{03dba911-881a-40aa-97a6-e3fcb9bf0a35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\socketio\internal">
+      <UniqueIdentifier>{6fb6b15e-8b77-481b-a09b-2ea99a013d40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\socketio\internal">
+      <UniqueIdentifier>{41c240a2-f7d5-4aed-b418-c3e5eb9df443}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="sio_client.cpp">
+      <Filter>소스 파일\socketio</Filter>
+    </ClCompile>
+    <ClCompile Include="sio_socket.cpp">
+      <Filter>소스 파일\socketio</Filter>
+    </ClCompile>
+    <ClCompile Include="internal\sio_client_impl.cpp">
+      <Filter>소스 파일\socketio\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="internal\sio_packet.cpp">
+      <Filter>소스 파일\socketio\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="sio_message.h">
+      <Filter>헤더 파일\socketio</Filter>
+    </ClInclude>
+    <ClInclude Include="sio_client.h">
+      <Filter>헤더 파일\socketio</Filter>
+    </ClInclude>
+    <ClInclude Include="sio_socket.h">
+      <Filter>헤더 파일\socketio</Filter>
+    </ClInclude>
+    <ClInclude Include="internal\sio_client_impl.h">
+      <Filter>헤더 파일\socketio\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="internal\sio_packet.h">
+      <Filter>헤더 파일\socketio\internal</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
