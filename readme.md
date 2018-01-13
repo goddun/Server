@@ -12,8 +12,8 @@
 ##### Server Dependency
 
 ```python
-npm install express --save
-npm install socketio --save
+npm install express
+npm install socketio
 ```
 
 ##### Client Dependency
